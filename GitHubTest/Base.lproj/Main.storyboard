@@ -25,6 +25,9 @@
                                 <state key="normal" title="Button">
                                     <color key="titleColor" red="0.99990254640579224" green="1" blue="0.99988251924514771" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="LoQ-3H-cDz" kind="show" id="cyS-OL-zyY"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.12453683465719223" green="0.33783537149429321" blue="0.071164526045322418" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -43,6 +46,15 @@
                     <view key="view" contentMode="scaleToFill" id="43C-lx-FG1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HG3-OW-nJG">
+                                <rect key="frame" x="166" y="217" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="0.96009773015975952" green="0.83843082189559937" blue="0.87798792123794556" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="hM3-Rx-PdG"/>
                     </view>
